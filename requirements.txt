@@ -1,0 +1,6 @@
+flask
+transformers
+pillow
+pytesseract
+cohere
+
