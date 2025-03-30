@@ -58,40 +58,6 @@ Together, these capabilities make VisioNiX a comprehensive solution for image pr
 3. **Extract Text with OCR**: Run Tesseract to identify and extract text within the image.
 4. **Store and Analyze Results**: Store captions and OCR results in a data table for easy access or further analysis.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/VisioNiX.git
-   cd VisioNiX
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Install Tesseract OCR:
-   ```bash
-   sudo apt-get install -y tesseract-ocr
-   ```
-
-## Usage
-
-Run the notebook to perform image captioning and OCR on your images:
-
-1. Load an image into the notebook.
-2. Run the provided cells to generate captions and extract text.
-
-## Requirements
-
-- `transformers`
-- `torch`
-- `tesseract-ocr`
-- `pytesseract`
-- `pandas`
-- `cohere` (optional for advanced NLP tasks)
-
 ## Known Issues
 - May not provide accurate answers to complex queries.
 - May not provide accurate description for badly aligned images.
